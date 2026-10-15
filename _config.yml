@@ -1,0 +1,64 @@
+# 网站基本信息。
+title: Circle 的技术博客
+subtitle: Unity · 工程实践 · 技术笔记
+description: 记录 Unity 开发、资源打包与性能优化的思考与实践。
+keywords: Unity,YooAsset,游戏开发,资源打包,性能优化
+author: Circle
+language: zh-CN
+timezone: Asia/Shanghai
+# GitHub Pages 用户站点地址。
+url: https://circle7991.github.io
+root: /
+permalink: posts/:title/
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+# 源文件与生成目录。
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render: []
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+# Fluid 使用 highlight.js 渲染代码。
+syntax_highlighter: highlight.js
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: '    '
+  wrap: true
+prismjs:
+  enable: false
+# 首页、归档与分类列表。
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+default_category: 技术笔记
+category_map: {}
+tag_map: {}
+per_page: 10
+pagination_dir: page
+# 生成本地全文搜索索引。
+search:
+  path: local-search.xml
+  field: post
+  content: true
+sitemap:
+  path: sitemap.xml
+# 使用 Fluid 主题。
+theme: fluid
